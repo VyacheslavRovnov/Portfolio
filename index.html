@@ -2,11 +2,183 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<title>Сайт-портфолио</title>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script type="text/javascript" src="https://vk.com/js/api/share.js?94" charset="windows-1251"></script>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="js/jquery-3.1.0.min.js">
-	<title>Document</title>
+	<link rel="stylesheet" href="css/animate.css">
 </head>
-<body>
-	<h1>Портфолио</h1>
-</body>
+
+	<body>
+	
+	<header class="header " id="home">
+			<div class="header__top">
+				<div class="header__logo">
+					<a href="" class="logo">
+						<img src="img/cube.png" alt="" class="logo-pic">
+					</a>
+				</div>
+
+				<div class="header__menu" >
+					<ul class="menu">
+						<li class="menu__item"><a href="#about__me" class="menu__link">Oбо мне</a></li>
+						<li class="menu__item"><a href="#my__works" class="menu__link">Мои работы</a></li>
+						<li class="menu__item"><a href="#contact" class="menu__link">Контакты</a></li>
+					</ul>
+				</div>
+
+				<div class="contacts">
+					<p class="number">
+					<img src="img/phone.png" alt="" class="contacts__phone">
+					+7(913)762-94-31</p>
+					<p class="mail">
+					<img src="img/email.png" alt="" class="contacts__email">rovnov.2013@mail.ru</p>
+				</div>	
+			</div>	
+
+			<div class="conteiner">
+				<div class="preview animated fadeInDown">
+					<h1>Сайт-портфолио</h1>
+					<p class="name">Ровнов Вячеслав</p> <br>
+					<p class="skils">HTML/CSS Верстка сайтов</p>
+				</div>
+			</div>
+			
+		
+				<div class="arrow__next-about__me animated fadeInUp">
+						<a href="#about__me" class="arrow__link-down">
+							<img src="img/down-arrow.png" alt="" class="	arrow-pic">
+						</a>
+	
+				</div>
+			
+			<div class="arrow__up">
+				<a href="#home" class="arrow__link-up">
+					<img src="img/arrow-up.png" alt="" class="arrow__up-pic">
+				</a>
+			</div>	
+	</header>	
+
+	<div class="about__me" id="about__me" >
+			
+			<div class="conteiner">
+				<div class="head">
+					<h1 >Обо мне</h1>
+				</div>
+				
+				<div class="info__top">
+
+					<div class="info__person animated rotateInDownLeft">
+						<h3>О себе</h3> 
+
+						<p>Добрый день, меня зовут Вячеслав, программирование начал изучать 4 года назад, когда поступил в колледж на соответсвующую специальность.</p>
+						<p>Этот небольшой лэндинг создан с целью показать часть моих навыков, которым я научился занимаясь программированием и для дальнейшего размещения моих самых интересных работ связаных с разработкой сайтов.</p>
+						<!-- <p>Так же очень хотелось бы попасть в команду опытных разработчиков для работы над реальным проектом и приобретения новых знаний и опыта.</p> -->
+
+					</div>
+
+					<div class="info__education animated rotateInDownRight">
+						<h3>Образование</h3> 
+						<p>2012-2016 г. - Новосибирский авиационный технический 	колледж имени Б.С. Галущака.</p>
+						<p>Специальность «Программирование в 	компьютерных системах».</p>
+						<br>
+						<p>2016 - ... г. - Сибирский государственный университет 	телекоммуникаций и информатики, факультет информатики и 	вычислительной техники.</p> 
+						<p>Профиль: "Программное обеспечение средств вычислительной 	техники и автоматизированных систем".</p>				
+					</div>
+
+					
+				</div>
+
+				<div class="info__bottom">
+
+					<div class="info__skills animated zoomIn">
+						<h3>Навыки</h3> 
+							<ul class="skill__list">
+								<li class="skill__item">
+									<img src="img/html5-01.png" alt="" class="skill__item-pic">
+								</li>
+								<li class="skill__item">
+									<img src="img/css3-01.png" alt="" class="skill__item-pic">
+								</li>
+								<li class="skill__item">
+									<img src="img/prog-js02.png" alt="" class="skill__item-pic">
+								</li>
+								<li class="skill__item">
+									<img src="img/prog-php01.png" alt="" class="skill__item-pic">
+								</li>
+								<li class="skill__item">
+									<img src="img/dbs-mysql.png" alt="" class="skill__item-pic">
+								</li>
+								<li class="skill__item">
+									<img src="img/adb-photoshop.png" alt="" class="skill__item-pic">
+								</li>
+							</ul>
+					</div>	
+				
+					
+				</div>
+			</div>
+	</div>
+	
+
+	<div class="my__works" id="my__works">
+			<div class="conteiner">
+
+				<div class="head">
+					<h1>Мои работы</h1>	
+				</div>
+
+				<div class="works animated zoomIn" >
+						<p>к сожалению, в моем портфолио пока нет работ!</p>
+				</div>
+			</div>
+
+	</div>	
+	
+	<div class="contact" id="contact">
+
+		<div class="head">
+			<h1>Связаться со мной</h1>
+		</div>
+
+			
+			<div class="conteiner">
+				<div class="sentence">
+					<p>Стремлюсь попасть на работу в команду опытных разработчиков для приобретения новых знаний и опыта в разработке реальных проектов. Если у вас есть предложение по работе на вакансию Junior Frontend developer, свяжитесь со мной, я заинтересован в любом предложении.</p>
+					<br>
+					<p>Если у вас есть предложение по удаленной работе, готов 	выполнить следующие виды проектов:</p>
+					<ul class="sentence__list">
+						<li class="sentence__item">Landing page</li>
+						<li class="sentence__item">Сайт-визитка</li>
+						<li class="sentence__item">Верстка вашего макета</li>
+					</ul>
+	
+				</div>
+			
+				<div class="communications">
+
+					<p> <img src="img/mailru.png" alt="" class="	communications__pic-email"><a href="mailto:rovnov.2013@mail.ru" 	target="_blank">rovnov.2013@mail.ru</a></p>
+																													
+					<p> <img src="img/rus-vk-02.png" alt="" class="	communications__pic-vk"><a href="https://vk.com/<vyacheslav_rovnov>	</vyacheslav_rovnov>" target="_blank">vyacheslav_rovnov</a></p>
+	
+					<p> <img src="img/github-01.png" alt="" class="	communications__pic-github"><a href="https://github.com/	VyacheslavRovnov" target="_blank">Vyacheslav_Rovnov</a></p>
+	
+					<p> <img src="img/phone_touch.png" alt="" class="	communications__pic-phone">Телефон: +7(913)762-94-31</p>
+
+				</div>
+			</div>
+
+		<div class="empty"></div>
+	</div>
+	
+		<footer class="footer">
+			<div class="footer__copyright">
+
+				&copy; Rovnov.Vyacheslav.2017
+			</div>				
+		</footer>
+	</body>
+
 </html>

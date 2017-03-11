@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: Astakhov First One Stripe;
+  src: url(../fonts/AstakhovFirstOneStripe.ttf);
+  font-style: normal;
+  font-weight: normal; }
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-family: "Astakhov First One Stripe",Arial,sans-serif;
+  font-size: 16px;
+  margin: 0; }
+
+body {
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.animated {
+  -webkit-animation-duration: .6s;
+  -o-animation-duration: .6s;
+  -moz-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+/********** HEADER **********/
+.header {
+  min-height: 100%;
+  background: url(../img/backround__header.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.header__top {
+  padding: 20px 50px 0 50px;
+  margin-bottom: 100px; }
+
+.header__top:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.header__logo {
+  cursor: pointer;
+  float: left; }
+
+.logo {
+  display: inline-block; }
+
+.logo-pic {
+  display: block;
+  width: 64px;
+  height: 64px; }
+
+.header__menu {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin-left: 30px; }
+
+.menu {
+  float: left; }
+
+.menu__item {
+  float: left;
+  padding: 10px; }
+  .menu__item .menu__link {
+    color: #4D4D4D; }
+  .menu__item .menu__link:hover {
+    color: #fff; }
+
+.contacts {
+  float: right;
+  color: #4D4D4D; }
+
+.number {
+  position: relative; }
+
+.mail {
+  position: relative;
+  margin-top: 10px;
+  letter-spacing: 2px; }
+
+.contacts__phone {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: -30px; }
+
+.contacts__email {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: -2px;
+  left: -35px; }
+
+.conteiner {
+  width: 1137px;
+  margin: 0 auto;
+  content: "";
+  display: table;
+  clear: both; }
+
+.conteiner .preview {
+  color: #4D4D4D; }
+  .conteiner .preview h1 {
+    color: #4D4D4D;
+    text-align: center; }
+
+.name {
+  width: 50%;
+  text-align: center;
+  font-size: 3em;
+  border: 5px solid;
+  padding: 15px;
+  margin: 0 auto; }
+
+.skils {
+  text-align: center; }
+
+.arrow__next-about__me {
+  position: absolute;
+  bottom: 5%;
+  left: 47.5%;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); }
+  .arrow__next-about__me .arrow-pic {
+    position: absolute;
+    left: 13.5px;
+    top: 16px; }
+
+.arrow__link-down {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: block; }
+
+.arrow__next-about__me:hover {
+  height: 75px;
+  width: 75px;
+  border-radius: 75px; }
+  .arrow__next-about__me:hover .arrow-pic {
+    position: absolute;
+    left: 17px;
+    top: 21px;
+    height: 40px;
+    width: 40px; }
+
+.arrow__up {
+  float: right;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none; }
+
+.arrow__up-pic {
+  width: 50px;
+  height: 50px; }
+
+.arrow__up-pic:hover {
+  width: 60px;
+  height: 60px; }
+
+/********** ABOUT ME **********/
+.about__me {
+  min-height: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: url(../img/backgound-about__me.jpg);
+  background-size: cover;
+  color: #4D4D4D; }
+
+.conteiner h1 {
+  text-align: center;
+  color: #fff; }
+
+.info__top,
+.info__bottom {
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both; }
+  .info__top h3,
+  .info__bottom h3 {
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+
+.info__bottom {
+  margin-top: 40px; }
+
+.info__person,
+.info__education {
+  float: left;
+  width: 50%;
+  line-height: 1.6;
+  text-align: justify;
+  padding-left: 30px; }
+
+.info__skills {
+  width: 50%;
+  margin: 0 auto; }
+
+.skill__list {
+  text-align: justify; }
+
+.skill__list:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  display: inline-block; }
+
+.skill__item {
+  display: inline-block; }
+
+/********** MY WORKS **********/
+.my__works {
+  min-height: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: url(../img/backgound-my__works.jpg);
+  background-size: cover;
+  color: #fff; }
+  .my__works h1 {
+    color: #fff; }
+
+.head {
+  width: 25%;
+  margin: 0 auto;
+  background: rgba(77, 77, 77, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center; }
+
+.works {
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+  background: rgba(77, 77, 77, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 250px;
+  font-size: 20px; }
+
+/********** CONTACT **********/
+.contact {
+  min-height: 100%;
+  overflow: hidden;
+  background: url(../img/chelovek-more-volna.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .contact h1 {
+    color: #fff;
+    text-align: center; }
+
+.sentence {
+  position: relative;
+  width: 654px;
+  margin: 50px 36px 0 60px;
+  padding: 30px;
+  background: rgba(77, 77, 77, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  float: left;
+  line-height: 1.6;
+  text-align: justify; }
+  .sentence li {
+    list-style: square; }
+
+.communications {
+  position: relative;
+  width: 324px;
+  margin: 50px 60px 0 0;
+  padding: 30px;
+  background: rgba(77, 77, 77, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  float: left; }
+  .communications a {
+    color: #fff; }
+  .communications a:hover {
+    text-decoration: underline; }
+  .communications p {
+    padding-top: 15px; }
+
+.content li {
+  list-style: square; }
+
+.sentence__list {
+  padding-left: 20px; }
+
+.communications__pic-email {
+  position: absolute;
+  left: 52px;
+  bottom: 140px;
+  width: 32px;
+  height: 32px; }
+
+.communications__pic-vk {
+  position: absolute;
+  left: 52px;
+  bottom: 103px;
+  width: 32px;
+  height: 32px; }
+
+.communications__pic-github {
+  position: absolute;
+  left: 56px;
+  bottom: 65px;
+  width: 32px;
+  height: 32px; }
+
+.communications__pic-phone {
+  position: absolute;
+  left: 32px;
+  bottom: 27px;
+  width: 32px;
+  height: 32px; }
+
+.empty {
+  height: 75px; }
+
+.footer {
+  height: 75px;
+  margin-top: -75px;
+  position: relative;
+  color: #fff;
+  background: #4D4D4D;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  border-top: 1px solid #4D4D4D; }
+  .footer .footer__copyright {
+    margin: 20px 0 0 50px;
+    text-align: center; }
+  .footer .link__repost {
+    float: right;
+    position: absolute;
+    right: 15px;
+    bottom: 15px; }
+
+/*# sourceMappingURL=style.css.map */
