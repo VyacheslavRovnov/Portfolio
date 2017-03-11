@@ -236,7 +236,7 @@ a {
   min-height: 100%;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background: url(../img/backgound-my__works.jpg);
+  background: url(../img/backgound__my-works.jpg);
   background-size: cover;
   color: #fff; }
   .my__works h1 {
@@ -263,7 +263,7 @@ a {
 .contact {
   min-height: 100%;
   overflow: hidden;
-  background: url(../img/chelovek-more-volna.jpg) no-repeat;
+  background: url(../img/backround__contact.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover; }
   .contact h1 {
