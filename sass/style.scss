@@ -12,13 +12,11 @@
 }
 
 html, body {
+	width: 100%;
     height: 100%;
-    width: 100%;
-    font-size: 100%;
     font-family: "Astakhov First One Stripe",Arial,sans-serif;
     font-size: 16px;
-    margin: 0;
-	
+    margin: 0;	
 }
 
 body{
@@ -43,7 +41,10 @@ p{
 a{
 	text-decoration: none;
 }
-
+.wrapper{
+	height: 100%;
+	// overflow: hidden;
+}
 
 .animated {
   -webkit-animation-duration: .6s;
@@ -82,7 +83,7 @@ a{
 }
 
 .logo{
-	display: inline-block;
+	display: block;
 }
 
 .logo-pic{
@@ -92,9 +93,8 @@ a{
 }
 
 .header__menu {	
-	width: 30%;
+	width: 50%;
 	display: inline-block;
-	float: left;
 	margin-left: 30px;
 }
 
@@ -130,7 +130,7 @@ a{
 	letter-spacing:2px;
 }
 
-.contacts__phone	{
+.contacts__phone {
 	width: 29px;
 	height: 29px;
 	position: absolute;
@@ -147,13 +147,13 @@ a{
 }
 
 .conteiner{
-	width: 1137px;
+	width: 80%;
 	margin:0 auto;
 	@include clearfix;
 }
 
 .conteiner{
-	
+
 .preview{
 	color: #4D4D4D;
 
@@ -161,7 +161,6 @@ a{
 		color: #4D4D4D;
 		text-align: center;
 		}
-
 	}
 }
 
@@ -179,11 +178,10 @@ a{
 
 }
 
-
 .arrow__next-about__me{
-	position: absolute;
-	bottom: 5%;
-	left: 47.5%;
+	margin-top:12%;
+	margin-left: auto;
+	margin-right: auto;
  	height: 60px;
  	width: 60px;
  	border-radius: 50px;
@@ -192,8 +190,7 @@ a{
  	.arrow-pic{
  		position: absolute;
  		left: 13.5px; 
- 		top: 16px;
-
+ 		top: 15px;
  	}
 }
 
@@ -219,26 +216,26 @@ a{
 }
 
 .arrow__up{
-	float: right;
+	text-align: center;
 	position: fixed;
 	right: 15px;
 	bottom: 15px;
 	display:none;
+	width: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
 
+.arrow__link-up{
+	display: block;
 }
 
 .arrow__up-pic{
-	width: 50px;
-	height: 50px;	
-}
-.arrow__up-pic:hover{
-	width: 60px;
-	height: 60px;	
+	transform:rotate(180deg);	
 }
 
 
 /********** ABOUT ME **********/
-
 
 .about__me{
 	min-height: 100%;
@@ -269,6 +266,7 @@ a{
 
 .info__bottom{
 	margin-top: 40px;
+	display: none;
 }
 
 .info__person,
@@ -278,17 +276,16 @@ a{
 	line-height: 1.6;
 	text-align: justify;
 	padding-left: 30px;
+	display: none;
 }
 
 .info__skills{
-	width: 50%;
-	margin:0 auto;
-
+	width: 70%;
+	margin:20px auto;
 }
 
 .skill__list{
 	text-align: justify;
-
 }
 
 .skill__list:after{
@@ -301,8 +298,6 @@ a{
 .skill__item{
 	display: inline-block;
 }
-
-
 
 
 /********** MY WORKS **********/
@@ -318,7 +313,6 @@ a{
 		color: #fff;
  		}
  }
-
 
 .head{
 	width: 25%;
@@ -337,6 +331,7 @@ a{
 	text-align: center;
 	padding-top: 250px;
 	font-size: 20px;
+	display: none;
 }
 
 /********** CONTACT **********/
@@ -354,16 +349,14 @@ a{
     }
 }
 
-
 .sentence{
-	position: relative;
+	margin: 0 auto;
 	width: 654px;
-	margin:50px 36px 0 60px;
+	// margin:50px 36px 0 60px;
 	padding:30px;
 	background: rgba(77,77,77,0.8);
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	color: #fff;
-	float: left;
 	line-height: 1.6;
 	text-align: justify;
 
@@ -372,28 +365,24 @@ a{
 		}
 }
 
-
 .communications{
 	position: relative;
 	width: 324px;
-	margin:50px 60px 0 0;
+	margin:30px auto;
 	padding:30px;
 	background: rgba(77,77,77,0.8);
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	color: #fff;
 	text-align: center;
-	float: left;
 		a{
 	color: 	#fff;
 	}
 		a:hover{
 	text-decoration: underline;
 	}
-
 		p{
 		padding-top: 15px;
 	}
-
 }
 
 .content{

@@ -7,9 +7,8 @@
   font-style: normal;
   font-weight: normal; }
 html, body {
-  height: 100%;
   width: 100%;
-  font-size: 100%;
+  height: 100%;
   font-family: "Astakhov First One Stripe",Arial,sans-serif;
   font-size: 16px;
   margin: 0; }
@@ -29,6 +28,9 @@ p {
 
 a {
   text-decoration: none; }
+
+.wrapper {
+  height: 100%; }
 
 .animated {
   -webkit-animation-duration: .6s;
@@ -62,7 +64,7 @@ a {
   float: left; }
 
 .logo {
-  display: inline-block; }
+  display: block; }
 
 .logo-pic {
   display: block;
@@ -70,9 +72,8 @@ a {
   height: 64px; }
 
 .header__menu {
-  width: 30%;
+  width: 50%;
   display: inline-block;
-  float: left;
   margin-left: 30px; }
 
 .menu {
@@ -112,7 +113,7 @@ a {
   left: -35px; }
 
 .conteiner {
-  width: 1137px;
+  width: 80%;
   margin: 0 auto;
   content: "";
   display: table;
@@ -136,9 +137,9 @@ a {
   text-align: center; }
 
 .arrow__next-about__me {
-  position: absolute;
-  bottom: 5%;
-  left: 47.5%;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
   height: 60px;
   width: 60px;
   border-radius: 50px;
@@ -146,7 +147,7 @@ a {
   .arrow__next-about__me .arrow-pic {
     position: absolute;
     left: 13.5px;
-    top: 16px; }
+    top: 15px; }
 
 .arrow__link-down {
   position: relative;
@@ -166,19 +167,20 @@ a {
     width: 40px; }
 
 .arrow__up {
-  float: right;
+  text-align: center;
   position: fixed;
   right: 15px;
   bottom: 15px;
-  display: none; }
+  display: none;
+  width: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); }
+
+.arrow__link-up {
+  display: block; }
 
 .arrow__up-pic {
-  width: 50px;
-  height: 50px; }
-
-.arrow__up-pic:hover {
-  width: 60px;
-  height: 60px; }
+  transform: rotate(180deg); }
 
 /********** ABOUT ME **********/
 .about__me {
@@ -205,7 +207,8 @@ a {
     border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
 
 .info__bottom {
-  margin-top: 40px; }
+  margin-top: 40px;
+  display: none; }
 
 .info__person,
 .info__education {
@@ -213,11 +216,12 @@ a {
   width: 50%;
   line-height: 1.6;
   text-align: justify;
-  padding-left: 30px; }
+  padding-left: 30px;
+  display: none; }
 
 .info__skills {
-  width: 50%;
-  margin: 0 auto; }
+  width: 70%;
+  margin: 20px auto; }
 
 .skill__list {
   text-align: justify; }
@@ -257,7 +261,8 @@ a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
   padding-top: 250px;
-  font-size: 20px; }
+  font-size: 20px;
+  display: none; }
 
 /********** CONTACT **********/
 .contact {
@@ -271,14 +276,12 @@ a {
     text-align: center; }
 
 .sentence {
-  position: relative;
+  margin: 0 auto;
   width: 654px;
-  margin: 50px 36px 0 60px;
   padding: 30px;
   background: rgba(77, 77, 77, 0.8);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: #fff;
-  float: left;
   line-height: 1.6;
   text-align: justify; }
   .sentence li {
@@ -287,13 +290,12 @@ a {
 .communications {
   position: relative;
   width: 324px;
-  margin: 50px 60px 0 0;
+  margin: 30px auto;
   padding: 30px;
   background: rgba(77, 77, 77, 0.8);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: #fff;
-  text-align: center;
-  float: left; }
+  text-align: center; }
   .communications a {
     color: #fff; }
   .communications a:hover {
