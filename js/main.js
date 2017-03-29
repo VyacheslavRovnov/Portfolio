@@ -1,4 +1,3 @@
-/****** ПЛАВНАЯ ПРОКРУТКА ******/
 $(document).ready(function(){
 	$("div a").click(function () {
 		elementClick = $(this).attr("href");
@@ -46,53 +45,3 @@ $(document).ready(function(){
 	});
 
 });
-
-// /****** всплывание элементов ******/ 
-// $(document).ready(function(){
-
-	
-
-// 		// else if ( scroll > 200){
-// 		// 	$infoPerson.addClass('rotateInDownLeft'),
-// 		// 	$infoEducation.addClass('rotateInDownRight')
-// 		// }
-// 		// else if ( scroll >){
-
-// 		// 	$infoPerson.removeClass('rotateInDownLeft'),
-// 		// 	$infoEducation.removeClass('rotateInDownRight')
-// 		// }
-// 	});
-
-// });
-
-// $(document).ready(function() {
-// // 	$(window).scroll(function(event) {
-// // 	var	$infoPerson = $('.info__person'),
-// //    		$infoEducation = $('.info__education'),
-// //    		$infoBottom = $('.info__bottom'),
-	
-		
-// // 		// // if ( scroll > 200){
-// // 		// 	$infoPerson.addClass('rotateInDownLeft'),
-// // 		// 	$infoEducation.addClass('rotateInDownRight')
-// // 		// }
-// // 		// else 
-// // 		// if ( 700 > scroll <200){
-
-// // 		// 	$infoPerson.removeClass('rotateInDownLeft'),
-// // 		// 	$infoEducation.removeClass('rotateInDownRight')
-// // 		// }
-// // 	});
-// // });
-
-// $(document).ready(function(){
-// 	$(window).on('load', function () {
-// 	    var $preloader = $('#preloader'),
-// 	        $spinner   = $preloader.find('.spinner');
-// 	    $spinner.delay(1000).fadeOut();
-// 	    $preloader.delay(1000).fadeOut('slow');
-// 	    $('.wrapper').css({
-// 	    	overflow: 'auto',
-// 	    });
-// 	});
-// })
